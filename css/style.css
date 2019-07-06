@@ -28,11 +28,12 @@ img {
   height: 24px;
 }
 .menu {
-  width: 490px;
-  height: 66px;
+  /* width: 490px;
+  height: 66px; */
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  margin-top: 30px;
 }
 .menu__link {
   text-transform: uppercase;
@@ -41,6 +42,11 @@ img {
   color: #95e1d3;
   font-family: "Montserrat";
   transition: color 200ms linear;
+  
+  
+}
+.nav__link:not(:first-of-type) {
+  margin-left: 43px;
 }
 
 .rotatate {
@@ -102,14 +108,14 @@ img {
   margin: 0 auto;
   margin-top: 64px;
 }
-.h3 {
+.service__subtittle {
   font-size: 24px;
   color: #333333;
   font-family: "Kaushan Script";
   font-weight: 400;
   text-align: center;
 }
-.h2 {
+.service__title {
   font-size: 30px;
   color: #333333;
   font-family: "Montserrat";
@@ -118,7 +124,7 @@ img {
   margin-top: 12px;
   text-transform: uppercase;
 }
-.h2::after {
+.service__title::after {
   display: block;
   content: "";
   width: 60px;
@@ -138,7 +144,7 @@ img {
   justify-content: space-between;
 }
 
-.h4 {
+.content__title {
   font-size: 14px;
   color: #333333;
   font-family: "Montserrat";
@@ -227,7 +233,7 @@ img {
   justify-content: space-between;
 }
 
-.h5 {
+.team__title {
   font-size: 14px;
   color: #333333;
   font-family: "Montserrat";
@@ -235,7 +241,7 @@ img {
   text-align: center;
   margin-top: 16px;
 }
-.h5__p {
+.team__subtitle {
   font-size: 15px;
   line-height: 24px;
   color: #999999;
